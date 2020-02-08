@@ -16,7 +16,6 @@ p {
 }
 
 .links a {
-
 /* .links a:hover {
     background-color: : red;
   }*/
@@ -38,16 +37,10 @@ p {
   background-color: #f2fff6;
   border: none;
 }
-
-
-
-
 .myI a {
   text-decoration: none;
   padding-right: 20px;
 }
-
-
 .myII a {
   text-decoration: none;
   padding-right: 20px;
@@ -61,10 +54,17 @@ header a {
 .myI {
   /* display: inline-block;*/
   background-color: #f2fff6;
+  cursor: default;
 }
 
 .myII {
-  display: inline-block;
+  /* display: inline-block; */
   background-color: #80ff80;
   margin-top: 0px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.myII a:hover{
+  color: #004d00;
 }

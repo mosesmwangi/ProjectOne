@@ -1,0 +1,40 @@
+body {
+  background-color: #b3ffb3;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+pre {
+  text-align: center;
+  font-size: 15px;
+}
+
+header a {
+  background-color: #00b300;
+  font-size: 40px;
+}
+
+header a:link {
+  text-decoration: none;
+}
+
+.myI a {
+ border-radius: 8px;
+ padding: 5px;
+}
+
+.myII a {
+  background-color: #b3ffb3;
+}
+
+.myI a:hover{
+  color: #004d00;
+}
+
+ table {
+   text-align: center;
+ }
