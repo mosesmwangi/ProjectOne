@@ -68,3 +68,9 @@ header a {
 .myII a:hover{
   color: #004d00;
 }
+
+@media screen and (min-width: 480px) {
+    body {
+    background-color: #f2fff6;
+    }
+}
